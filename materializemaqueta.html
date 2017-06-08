@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+		<link rel="stylesheet" href="css/main.css">
+
+		<title>Materialize</title>
+	</head>
+	<body class="gotham">
+		<header>
+			<label for="" class="return">&lt; &nbsp; REGRESAR AL EVENTO</label>
+		</header>
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-sm-12 col-xs-12">
+					<div class="col-sm-8 col-xs-12">
+						<div class="col-sm-4 col-xs-3">
+							<img src="images/event.png" alt="" class="event-image">
+						</div>
+						<div class="col-sm-8 col-xs-9 event-pay-desc">
+							<div class="col-sm-12 col-xs-12 pay-event-title">
+								<label>
+									Los Mojarras en Lima!
+								</label>
+							</div>
+							<div class="col-sm-12 col-xs-12 pay-event-date-address graytext">
+								<span>
+									Miércoles 28 de Noviembre a las 18:00
+								</span>
+							</div>
+							<div class="col-sm-12 col-xs-12 pay-event-date-address graytext">
+								<span>
+									Calle Basadre 3456, San Isidro
+								</span>
+							</div>								
+						</div>
+					</div>
+					<div class="col-sm-4 col-xs-12 countdown">
+						<div class="col-sm-12 timer">
+							<span class="mins">12:30</span>
+							<span class="measure">min</span>
+						</div>
+						<div class="col-sm-12 timer-message">
+							<span>¡Tienes tiempo de sobra!</span>
+						</div>
+					</div>
+				</div>
+				<!-- Progress Time Bar -->
+				<div class="col-sm-12 col-xs-12">
+					<div class="progress jn-progress">
+						<div class="progress-bar jn-progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+						</div>
+					</div>
+				</div>
+				<div class="col-sm-12">
+					<!-- Información de comprador y método de pago -->
+					<div class="col-sm-8">
+						<div class="panel-group payment-panel">
+							<div class="panel panel-default">
+								<div class="panel-heading jn-heading-panel">
+									<h4 class="panel-title">
+										<a data-toggle="collapse" href="#choosepayment" class="accordion-choose">Elige tu método de pago <i class="fa fa-sort-desc" style="float: right"></i></a>
+									</h4>
+								</div>
+								<div id="choosepayment" class="panel-collapse collapse in">
+									<div class="panel-body">
+										<div class="col-sm-12 payment-type">
+											<div class="col-sm-4">
+												<img src="images/tarjeta.png" alt="">
+											</div>
+											<div class="col-sm-4 credit-debit">
+												<span class="pay-type">Paga con tarjeta de crédito o débito</span>
+												<br/>
+												<span class="submessage-pay">(el cobro se realizará en dólares)</span>
+											</div>
+											<div class="col-sm-4 btnpay-container">
+												<button class="btn btnpay ju-waves">Pagar con tarjeta</button>
+											</div>
+										</div>
+										<div class="col-sm-12 payment-type">
+											<div class="col-sm-4">
+												<img src="images/deposito.png" alt="">
+											</div>
+											<div class="col-sm-4 deposit" style="">
+												<span class="pay-type">Depósito en efectivo</span>
+												<br/>
+											</div>
+											<div class="col-sm-4 btnpay-container">
+												<button class="btn btnpay ju-waves">Solicitar código de pago</button>
+											</div>
+										</div>
+										<div class="col-sm-12 payment-type">
+											<div class="col-sm-4">
+												<img src="images/banca.png" alt="">
+											</div>
+											<div class="col-sm-4 deposit" style="">
+												<span class="pay-type">Paga en tu banca por internet</span>
+												<br/>
+											</div>
+											<div class="col-sm-4 btnpay-container">
+												<button class="btn btnpay ju-waves">Solicitar código de pago</button>
+											</div>
+										</div>																				
+											
+									</div>
+									<div class="panel-footer">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- Tabla pago -->
+					<div class="col-sm-4">
+						<table class="table">
+							<caption>Resumen de compra</caption>
+							<tr>
+								<th>2 x Entrada General</th>
+								<td>S/. 30.00</td>
+							</tr>
+							<tr>
+								<th>1x VIP</th>
+								<td>S/. 80.00</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td>S/. 110.00</td>
+							</tr>
+							<tfoot>
+								<tr style="border-top: 2px solid #aaa;">
+									<td>Total</td>
+									<td><b>S/.280.00</b></td>
+								</tr>
+							</tfoot>
+
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/crypto-js/3.1.9-1/crypto-js.js
+"></script>
+
+
+	</body>
+</html>
